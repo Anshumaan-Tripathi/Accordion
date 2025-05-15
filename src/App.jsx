@@ -24,10 +24,6 @@ function handleMultipleSelect(id) {
   }
 }
 
-
-  useEffect(() => {
-    console.log(multipleData);
-  }, [multipleData]);
   return (
     <div className="wrapper-div">
       <button className="btn" onClick={() => setMultiple(!multiple)}>
